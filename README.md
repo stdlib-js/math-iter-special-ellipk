@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterEllipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-ellipk@deno/mod.js';
+import iterEllipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-ellipk@v0.2.0-deno/mod.js';
 ```
 
 #### iterEllipk( iterator )
@@ -106,7 +106,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import iterEllipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-ellipk@deno/mod.js';
+import iterEllipk from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-ellipk@v0.2.0-deno/mod.js';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -1.0, 1.0, {
